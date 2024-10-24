@@ -1,16 +1,24 @@
 
 import './App.css'
+import RouterSwitch from './components/routerswitch';
 
 function App() {
  
   return (
 <>
-<div><h1>Welcome</h1>
-<form>
-  <div><button type="submit" className="btn btn-primary">Sign In</button></div>
-  <div><button type="submit" className="btn btn-primary">Create Account</button></div>
-</form>
-</div>
+{
+<RouterSwitch />
+}
+
+</>
+  )
+}
+
+export default App
+
+
+
+/* 
 
 <div><h1>Bookit</h1>
 <form>
@@ -34,7 +42,7 @@ function App() {
 <form>
   <div><button type="submit" className="btn btn-primary">Hourly View</button></div>
   <div><button type="submit" className="btn btn-primary">Create Event</button></div>
-  {/* insert gauge */}
+ 
 </form>
 </div>
 
@@ -53,8 +61,5 @@ function App() {
   <div><button type="submit" className="btn btn-primary">Monthly View</button></div>
 </form>
 </div>
-</>
-  )
-}
 
-export default App
+*/
