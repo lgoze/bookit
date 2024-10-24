@@ -5,25 +5,52 @@ function App() {
  
   return (
 <>
-<div><h1>Create Account</h1>
+<div><h1>Welcome</h1>
 <form>
-  <div className="mb-3">
-    <label htmlFor="exampleInputEmail1" className="form-label">Email address: </label>
-    <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"></input>
-  </div>
-  <div className="mb-3">
-    <label htmlFor="firstName" className="form-label">First Name: </label>
-    <input type="text" className="form-control" id="firstName"></input>
-  </div>
-  <div className="mb-3">
-    <label htmlFor="lastName" className="form-label">Last Name: </label>
-    <input type="text" className="form-control" id="lastName"></input>
-  </div>
-  <div className="mb-3">
-    <label htmlFor="inputPassword" className="form-label">Password</label>
-    <input type="password" className="form-control" id="inputPassword"></input>
-  </div>
-  <button type="submit" className="btn btn-primary">Submit</button>
+  <div><button type="submit" className="btn btn-primary">Sign In</button></div>
+  <div><button type="submit" className="btn btn-primary">Create Account</button></div>
+</form>
+</div>
+
+<div><h1>Bookit</h1>
+<form>
+  <div><button type="submit" className="btn btn-primary">View Calendar</button></div>
+  <div><button type="submit" className="btn btn-primary">Create Event</button></div>
+  <div><button type="submit" className="btn btn-primary">Upcoming Events</button></div>
+  <div><button type="submit" className="btn btn-primary">Contacts</button></div>
+  <div><button type="submit" className="btn btn-primary">Settings</button></div>
+</form>
+</div>
+
+<div><h1>Calendar</h1>
+<form>
+  <div><button type="submit" className="btn btn-primary">Daily View</button></div>
+  <div><button type="submit" className="btn btn-primary">Weekly View</button></div>
+  <div><button type="submit" className="btn btn-primary">Monthly View</button></div>
+</form>
+</div>
+
+<div><h1>Daily View</h1>
+<form>
+  <div><button type="submit" className="btn btn-primary">Hourly View</button></div>
+  <div><button type="submit" className="btn btn-primary">Create Event</button></div>
+  {/* insert gauge */}
+</form>
+</div>
+
+<div><h1>Weekly View</h1>
+<form>
+  <div><button type="submit" className="btn btn-primary">Daily View</button></div>
+  <div><button type="submit" className="btn btn-primary">Weekly View</button></div>
+  <div><button type="submit" className="btn btn-primary">Monthly View</button></div>
+</form>
+</div>
+
+<div><h1>Monthly View</h1>
+<form>
+  <div><button type="submit" className="btn btn-primary">Daily View</button></div>
+  <div><button type="submit" className="btn btn-primary">Weekly View</button></div>
+  <div><button type="submit" className="btn btn-primary">Monthly View</button></div>
 </form>
 </div>
 </>

@@ -13,6 +13,16 @@ export default function home() {
   <div><button type="submit" className="btn btn-primary">Settings</button></div>
 </form>
 </div>
+
+<div><h1>Bookit</h1>
+<form>
+  <div><button type="submit" className="btn btn-primary">View Calendar</button></div>
+  <div><button type="submit" className="btn btn-primary">Create Event</button></div>
+  <div><button type="submit" className="btn btn-primary">Upcoming Events</button></div>
+  <div><button type="submit" className="btn btn-primary">Contacts</button></div>
+  <div><button type="submit" className="btn btn-primary">Settings</button></div>
+</form>
+</div>
 </>
   )
 }
